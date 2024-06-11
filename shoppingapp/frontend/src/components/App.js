@@ -1,11 +1,16 @@
 import React, {Component, component} from 'react';
 import ReactDOM from 'react-dom';
 import { createRoot } from 'react-dom/client';
+var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 
 class App extends Component{
     render(){
-        return <h1>React Django</h1>
+        return (
+            <div id="app2" className="App">
+                <h2>Hi, I am a Car!</h2>
+            </div>
+        );
     }
 }
 

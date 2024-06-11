@@ -1,4 +1,4 @@
 {
-	"presets": ["@babel/prerset-env", "@babel/preset-react"],
-	"plugins": ["transform-class-properties"]
+	"presets": ["@babel/preset-env", "@babel/preset-react"],
+	"plugins": ["transform-class-properties","@babel/plugin-transform-optional-chaining"]
 }
